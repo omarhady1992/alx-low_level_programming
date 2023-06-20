@@ -1,15 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
  * main-A function that prints _putchar
- * Return : 0
+ * Return: 0 if the function executes
  */
 
 int main(void)
 {
-
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -19,7 +16,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	
 	return (0);
-
 }
