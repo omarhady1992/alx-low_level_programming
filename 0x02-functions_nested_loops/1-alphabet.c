@@ -5,7 +5,7 @@
  * Return: 0 if executed
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char alpha;
 
