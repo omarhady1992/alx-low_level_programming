@@ -11,16 +11,16 @@ int main(void)
 	long int second = 2;
 	long int next;
 	int i;
-	
-	for (i = 1; i < 50; ++i)
+
+	for (i = 1; i <= 50; ++i)
 	{
-		next = first + second;
-		if (next != 20365011074)
-			printf("%ld, ", next);
+		if (first != 20365011074)
+			printf("%ld, ", first);
 		else
-			printf("%ld\n", next);
+			printf("%ld\n", first);
+		next = first + second;
 		first = second;
 		second = next;
 	}
-	return 0;
+	return (0);
 }
