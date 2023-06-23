@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers-a function that prints a straight line,
+ * print_line-a function that prints a straight line,
  * follows by a new line
  * @n: number of _ or line length
  */
@@ -16,7 +16,7 @@ void print_line(int n)
 	{
 		int a;
 
-		for (a=1; a <= n; a++)
+		for (a = 1; a <= n; a++)
 		{
 			_putchar('_');
 		}
