@@ -10,7 +10,7 @@ void rev_string(char *s)
 	int l, i, j;
 	char str1, str2;
 
-	for (l = 0, s[l] != '\0'; l++)
+	for (l = 0; s[l] != '\0'; l++)
 	{
 	}
 
@@ -19,10 +19,10 @@ void rev_string(char *s)
 
 	while (j > i)
 	{
-		v1 = s[i];
-		v2 = s[j];
-		s[i] = v2;
-		s[j] = v1;
+		str1 = s[i];
+		str2 = s[j];
+		s[i] = str2;
+		s[j] = str1;
 		j--;
 		i++;
 	}
