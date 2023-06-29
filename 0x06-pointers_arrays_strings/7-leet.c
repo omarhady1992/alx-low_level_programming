@@ -10,18 +10,19 @@ char *leet(char *s)
 {
 	char *a = "aAeEoOtTlL";
 	char *b = "4433007711";
-	int i;
+	int i, j;
 
-	while (*s)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (i = 0; i < 10; i++)
+		for (j = 0; j < 10; j++)
 		{
-			if (*s == a[i])
+			if (s[i] == a[j])
 			{
-				*s = b[i];
+				s[i] = b[j];
 			}
 		}
-		s++;
 	}
+
 	return (s);
 }
+
