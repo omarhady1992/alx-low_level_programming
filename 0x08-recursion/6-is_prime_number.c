@@ -18,7 +18,7 @@ int prime_iterator(int n, int i)
 {
 	if (i == 1)
 		return (1);
-	if (n % i == 0, i > 0)
+	if (n % i == 0 && i > 0)
 		return (0);
 	return (prime_iterator(n, i - 1));
 }
