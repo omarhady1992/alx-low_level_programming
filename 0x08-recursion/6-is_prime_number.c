@@ -1,12 +1,6 @@
 #include "main.h"
 
 /**
- * is_prime_number-checks if the number is prime
- * @n: input number
- * Return: 1 if the number is prime
- */
-
-/**
  * prime_iterator-iterates through numbers
  * @n: input number
  * @i: iterator
@@ -22,6 +16,15 @@ int prime_iterator(int n, int i)
 		return (0);
 	return (prime_iterator(n, i - 1));
 }
+
+
+/**
+ * is_prime_number-checks if the number is prime
+ * @n: input number
+ * Return: 1 if the number is prime
+ */
+
+
 
 int is_prime_number(int n)
 {
