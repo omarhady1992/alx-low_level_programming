@@ -14,7 +14,7 @@ int len_str(char *s)
 
 	while (*s++)
 		l++;
-	return (len);
+	return (l);
 }
 
 /**
