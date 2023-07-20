@@ -72,11 +72,11 @@ void print_all(const char * const format, ...)
 	while (format && format[i])
 	{
 		j = 0;
-		while (formats[j].format)
+		while (tokens[j].token)
 		{
-			if (format[i] == formats[j].format[0])
+			if (format[i] == tokens[j].token[0])
 			{
-				formats[j].f(separator, ap);
+				tokens[j].f(separator, ap);
 				separator = ", ";
 			}
 			j++;
