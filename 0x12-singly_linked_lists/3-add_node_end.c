@@ -35,6 +35,6 @@ list_t *add_node_end(list_t **head, const char *str)
 		tempaya = tempaya->next;
 	tempaya->next =  listaya;
 
-	return(listaya);
+	return (listaya);
 }
 
