@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * len_list-measures the length of a linked list
+ * list_len-measures the length of a linked list
  * @h: input head pointer
  * Return: number of elements in the list
  */

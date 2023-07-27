@@ -33,7 +33,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	while (tempaya->next)
 		tempaya = tempaya->next;
-	temapaya->next =  listaya;
+	tempaya->next =  listaya;
 
 	return(listaya);
 }
