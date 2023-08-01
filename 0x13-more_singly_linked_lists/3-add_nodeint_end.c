@@ -24,9 +24,9 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (nodaya);
 	}
 
-	while (temp->next)
-		temp = temp->next;
-	temp->next = nodaya;
+	while (tempaya->next)
+		tempaya = tempaya->next;
+	tempaya->next = nodaya;
 	return (nodaya);
 }
 
