@@ -3,8 +3,9 @@
 /**
  * find_listint_loop-finds the loop
  * @head: linked list to search in
- * Return: address of the node where the loop 
+ * Return: address of the node where the loop
  */
+
 listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *slow = head;
